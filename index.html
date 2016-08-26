@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset='utf-8'/>
-<title>findwifi - odp</title>
+<title>wifiを探す - odp</title>
 <meta property="og:image" content="https://codeforfukui.github.io/findwifi/findwifi.jpg">
 <link rel="apple-touch-icon" href="https://codeforfukui.github.io/findwifi/icon/icon_wifi.png"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi">
@@ -37,7 +37,7 @@ http://fukuno.jig.jp/app/odp/datalist.html
 var TYPE = "http://purl.org/jrrk#PublicWIFI";
 
 var icons = {
-	"http://purl.org/jrrk#PublicWIFI": { icon: "icon/icon_wifi.png", icon_plugs: "icon/icon_wifi_red.png", name: "Free WiFi", getIcon: function(data) { return data.plugs && data.plugs == "有" ? this.icon_plugs : this.icon } }
+	"http://purl.org/jrrk#PublicWIFI": { icon: "icon/icon_star.png", icon_plugs: "icon/icon_wifi_red.png", name: "Free WiFi", getIcon: function(data) { return data.plugs && data.plugs == "有" ? this.icon_plugs : this.icon } }
 };
 
 /*
